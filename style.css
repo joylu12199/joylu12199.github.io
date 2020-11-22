@@ -1,0 +1,74 @@
+
+
+
+.container{text-align:center; font-size:16px;
+margin-top: 50px;
+}
+
+
+
+.images img { padding: 25px;} 
+.images img {margin-bottom: 100px;}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    word-spacing: 3px;
+   font-size: 18px;
+}
+
+.content div {
+    width: 100%
+}
+
+.content img {
+    width: 400px;
+}
+
+.profile {
+    padding-left: 60px;
+}
+
+.bluewords {
+   color:#0085FF;
+   position: relative;
+}
+.footer {
+    background-color:#F0DCD0 ;
+    margin-top: 100px;
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+}
+
+.footer div{
+    padding-top: 5px;
+}
+
+.diversity {
+    height: 200px;
+    object-fit: scale-down;
+    position: absolute;
+    z-index: 1;
+    bottom: 22px;
+    right: -160px;
+    visibility: hidden;
+}
+
+.architecture {
+    height: 200px;
+    object-fit: scale-down;
+    position: absolute;
+    z-index: 1;
+    bottom: 22px;
+    right: -150px;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
